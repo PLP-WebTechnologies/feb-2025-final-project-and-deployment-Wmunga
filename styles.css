@@ -1,0 +1,23 @@
+#nav-menu.active {
+    display: block;
+}
+.blog-card {
+    transition: transform 0.3s;
+}
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+@media (max-width: 768px) {
+    #nav-menu {
+        display: none;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        right: 0;
+        background: #2563eb;
+        padding: 1rem;
+    }
+    #nav-menu li {
+        margin: 0.5rem 0;
+    }
+}
